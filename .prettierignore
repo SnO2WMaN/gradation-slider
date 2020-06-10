@@ -1,0 +1,9 @@
+# Dependencies
+node_modules/
+
+# Compiled outputs
+.next/
+storybook-static/
+
+# Enable
+!.storybook

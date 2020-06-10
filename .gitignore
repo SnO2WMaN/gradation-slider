@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Compiled outputs
+.next/
+storybook-static/
+
+# Logs
+logs/
+*.log
+
+# Environment Variables
+*.env*
+
+# OS
+.DS_Store

@@ -1,0 +1,9 @@
+# git
+.git/
+
+# Dependencies
+node_modules/
+
+# Compiled outputs
+.next/
+storybook-static/

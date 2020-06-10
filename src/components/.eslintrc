@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "unicorn/filename-case": [
+      1,
+      {
+        "cases": { "pascalCase": true }
+      }
+    ]
+  }
+}

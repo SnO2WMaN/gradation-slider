@@ -1,0 +1,17 @@
+{
+  "quoteProps": "consistent",
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": [
+        ".babelrc",
+        ".eslintrc",
+        ".prettierrc",
+        ".lintstagedrc",
+        ".huskyrc",
+        ".renovaterc"
+      ],
+      "options": { "parser": "json" }
+    }
+  ]
+}

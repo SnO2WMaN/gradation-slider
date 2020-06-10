@@ -1,0 +1,10 @@
+{
+  "*.{js,jsx,ts,tsx}": ["eslint --fix"],
+  "*.{css,sass,scss,json,yml,yaml,md,gql}": ["prettier --write"],
+  "*.babelrc": ["prettier --write"],
+  "*.eslintrc": ["prettier --write"],
+  "*.prettierrc": ["prettier --write"],
+  "*.lintstagedrc": ["prettier --write"],
+  "*.huskyrc": ["prettier --write"],
+  "*.renovaterc": ["prettier --write"]
+}

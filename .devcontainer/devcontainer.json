@@ -1,0 +1,18 @@
+{
+  "name": "gri",
+  "dockerComposeFile": "../docker-compose.yml",
+  "appPort": [6006],
+  "service": "application",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "yarn install",
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "EditorConfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
+}

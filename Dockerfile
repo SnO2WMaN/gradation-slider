@@ -1,0 +1,8 @@
+FROM node:lts
+
+ENV PROJECT_ROOTDIR /workspace/
+WORKDIR $PROJECT_ROOTDIR
+
+COPY package.json yarn.lock $PROJECT_ROOTDIR
+RUN yarn install
+COPY . $PROJECT_ROOTDIR
