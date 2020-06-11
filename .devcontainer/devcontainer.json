@@ -10,7 +10,8 @@
     "EditorConfig.editorconfig",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "mikestead.dotenv"
+    "mikestead.dotenv",
+    "jpoissonnier.vscode-styled-components"
   ],
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
