@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "config:base",
+    ":label(Renovate)",
+    ":timezone(Asia/Tokyo)",
+    "schedule:monthly",
+    ":maintainLockFilesMonthly",
+    ":automergePatch",
+    ":prHourlyLimitNone",
+    ":prConcurrentLimitNone"
+  ]
+}
